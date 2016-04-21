@@ -267,3 +267,10 @@ li {
 	width: 700px;
 	padding-bottom: 40px;
 }
+
+#map {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	width: 80%;
+}
