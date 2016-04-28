@@ -24,16 +24,19 @@
 </div>
 
 <div id= "content">
-	<p>To encourage students to drink more tap water and use reusable water bottles instead of disposable ones, we have supported the installation of water bottle filling stations around campus. They are located in these buildings, in addition to newer installations in Barton, MVR, Stocking Hall, Helen Newman, Bartels, Kennedy, and Teagle...</p>
-	<div id="listimg">
-		<img src="../Images/list.jpg" alt="list">
-	</div>
-	<p>Check out these stations, which look like this:</p>
+	<p>To encourage students to drink more tap water and use reusable water bottles instead of disposable ones, we have supported the installation of water bottle filling stations around campus.</p>
 	
+	<div>
+		<div id="map" style="width: 80%; height: 400px;"></div>
+		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	</div>
+
+	<p>Check out these stations, which look like this:</p>
+
 	<div id="stationsimgs">
 		<img src="../Images/station1.jpg" alt="station1">
-		<img src="../Images/station2.jpg" alt="station2">
-		<img src="../Images/station3.jpg" alt="station3">
+		<!-- <img src="../Images/station2.jpg" alt="station2"> -->
+		<!-- <img src="../Images/station3.jpg" alt="station3"> -->
 	</div>
 	
 	<h3>Is tap water on campus safe to drink?</h3>
@@ -43,13 +46,14 @@
 	<h3>What happens during the Water Treatment Process?</h3>
 
 	<ul>
-		<li>Collection: Water enters one of two intake points at Fall Creek, a 125-square mile watershed that begins in the tributaries of Lake Como, Cayuga Country.</li>
-		<li>Flocculation and Sedimentation: Polyaluminum chloride (PAC) causes suspended impurities to gather into clumps, thus increasing the speed at which they settle to the bottom of the tank and are removed from the water.</li>
-		<li>Filtration: Water is pumped through one of six filters, each containing a layer of anthracite coal, a layer of sand, a layer of gravel, and a layer of pebbles, all which catch remaining fine particles and microorganisms.</li>
-		<li>Chlorination: Sodium hypochlorite is added as a disinfectant, effectively inactivating existing pathogens and preventatively inhibiting their future growth.</li>
-		<li>Distribution: Clean potable water is delivered through pipes to buildings on the Cornell University campus as well as in the Cornell Heights and Forest Home communities.</li>
-		<li>Read the <a href="https://energyandsustainability.fs.cornell.edu/file/AWQR_2014.pdf">Cornell Water Quality Report</a> to learn more about the water treatment process!</li>
-	</ul>	
+		<li><b>Collection:</b> Water enters one of two intake points at Fall Creek, a 125-square mile watershed that begins in the tributaries of Lake Como, Cayuga Country.</li>
+		<li><b>Flocculation and Sedimentation:</b> Polyaluminum chloride (PAC) causes suspended impurities to gather into clumps, thus increasing the speed at which they settle to the bottom of the tank and are removed from the water.</li>
+		<li><b>Filtration:</b> Water is pumped through one of six filters, each containing a layer of anthracite coal, a layer of sand, a layer of gravel, and a layer of pebbles, all which catch remaining fine particles and microorganisms.</li>
+		<li><b>Chlorination:</b> Sodium hypochlorite is added as a disinfectant, effectively inactivating existing pathogens and preventatively inhibiting their future growth.</li>
+		<li><b>Distribution:</b> Clean potable water is delivered through pipes to buildings on the Cornell University campus as well as in the Cornell Heights and Forest Home communities.</li>
+	</ul>
+
+	<p>Read the <u><a href="https://energyandsustainability.fs.cornell.edu/file/AWQR_2015%20final.pdf">Cornell Water Quality Report</a></u> to learn more about the water treatment process!</p>	
 	
 	<h3>Sampling Frequency</h3>
 
@@ -63,4 +67,5 @@
 </div>
 
 </body>
+<script type="text/javascript" src="../js/fill_station.js"></script>
 </html>
