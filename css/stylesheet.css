@@ -181,16 +181,9 @@ a:hover{
 }
 
 #coolerimg {
-	margin-left: 16%;
-	padding-bottom: 40px;
-}
-
-#coolerimg img {
-	height: 300px;
-	width: auto;
-	padding-top: 30px;
-	padding: 30px;
-	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
 }
 
 a {
@@ -273,9 +266,7 @@ li {
 }
 
 #coolerForm {
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
+	text-align: center;
 }
 
 #refills {
