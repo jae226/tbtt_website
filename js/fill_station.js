@@ -174,6 +174,10 @@ var locations = [
   [
     "Jameson Hall. Lobby near laundry (Ground floor)",
     42.455677, -76.478302
+  ],
+  [
+    "Low Rise 7. Lobby near entrance (Basement)",
+    42.456141, -76.475385
   ]
 ]
 
