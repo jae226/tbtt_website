@@ -158,6 +158,22 @@ var locations = [
   [
     "Willard Straight Hall. Outside men's restroom (floor 1)",
     42.446786, -76.485653
+  ],
+  [
+    "Balch Hall. Near Tatkon Cafe restrooms (floor 3)",
+    42.453163, -76.479465
+  ],
+  [
+    "Helen Newman Hall. Inside fitness center (floor 3)",
+    42.453022, -76.477604
+  ],
+  [
+    "Helen Newman Hall. Inside women's locker room (floor 2)",
+    42.452900, -76.477312
+  ],
+  [
+    "Jameson Hall. Lobby near laundry (Ground floor)",
+    42.455677, -76.478302
   ]
 ]
 
